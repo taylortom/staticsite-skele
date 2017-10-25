@@ -1,0 +1,29 @@
+{
+  "globals": {
+    "assetsDir": "/assets"
+  },
+  "menu": [
+    {
+      "id": "home",
+      "html": "Home",
+      "url": "/",
+      "target": "_self"
+    }
+  ],
+  "theme": {
+    "main": "base.less",
+    "options": {
+      "compress": true
+    }
+  },
+  "pages": {
+    "home": {
+      "title": {
+        "text": "Home",
+        "show": false
+      },
+      "subDir": false
+    }
+  },
+  "version": "0.0.1"
+}
